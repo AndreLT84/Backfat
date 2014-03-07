@@ -1,0 +1,17 @@
+
+.layout-nav ul {
+  text-align: center;
+  margin: 0.60753341433779% 0;
+  li {
+    display: inline-block;
+    margin: 0 6.43985419198056%;
+    font: 1.625em 'podkova', serif;
+    color: #f990a1;
+  }
+}
+
+.layout-bios {
+  @include span-columns(4 omega);
+}
+
+

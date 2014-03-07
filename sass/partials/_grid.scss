@@ -1,0 +1,17 @@
+@import 'susy';
+
+// grid 
+// viewport = 1229
+// padding in photoshop = 226px
+
+
+$total-columns  : 4;             // a 12-column grid
+$column-width   : 59.28941524796447%;            // each column is 4em wide
+$gutter-width   : 2.51665433012583%;            // 1em gutters between columns
+$grid-padding   : 16.58031088082902%;  // grid-padding equal to gutters
+
+
+#site {
+  @include container;
+  overflow: hidden;
+}
